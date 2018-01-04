@@ -14,6 +14,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="65dp"
         android:animateLayoutChanges="true"
         android:clipChildren="false">
 
@@ -28,8 +29,6 @@
             android:orientation="vertical">
 
             <!-- ICON CONTAINER -->
-
-            <!-- TEXT CONTAINER -->
             <FrameLayout
                 android:id="@+id/onboardingContentIconContainer"
                 android:layout_width="match_parent"
@@ -38,6 +37,7 @@
                 android:clipChildren="false"
                 android:clipToPadding="false" />
 
+            <!-- TEXT CONTAINER -->
             <FrameLayout
                 android:id="@+id/onboardingContentTextContainer"
                 android:layout_width="match_parent"
